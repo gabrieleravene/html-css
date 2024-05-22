@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 4</title>
+</head>
+<style>
+    body{
+        font-family: sans-serif;
+        background-color: rgb(252, 237, 239);
+    }
+
+    a{
+        color:palevioletred;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover{ 
+        text-decoration: underline; /* o link fica sublinhado ao passar o mouse sobre ele */
+        color:red; /* link fica vermelho ao passar o mouse sobre ele */
+    }
+
+    a::before{ /* modifica pedaço específico do elemento. insere o símbolo ⯎ antes do link etc */
+        content: ' ⯎ ';
+    }
+
+    a::after{
+        content: ' ⯎ ';
+    }
+
+    #especial:hover{
+        background-color: #edb0ed; /* se desejar alterar somente um elemento, criar id para ele*/
+    }
+
+
+</style>
+
+<body>
+    <h1>pseudoelementos // personalizando sites</h1>
+
+    <h2>cursos devweb</h2>
+    <ul>
+        <li><a href="https://www.codecademy.com/learn/learn-css" target="_blank" id="especial">html5 e css3: modulo 1</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s"  target="_blank">html5 e css3: modulo 2</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ"  target="_blank">html5 e css3: modulo 3</a></li>
+    </ul>
+    
+</body>
+</html>

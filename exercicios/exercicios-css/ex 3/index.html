@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 3</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Commissioner:wght@100..900&family=Kosugi+Maru&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schoolbell&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+
+        body{
+            background-color: rgb(187, 225, 187);
+            font-family: 'Work Sans'; 
+            
+            /* 'arial, helvetica, sans-serif;' é uma safe combination de font-family. irá usar a fonte disponsível no dispostivo*/
+            /* fontes genéricas: sanf-serif, serif, monospace */
+
+            font-size: 1.5em;
+
+            /*    
+            médidas absolutas: cm, mm, in (polegada), px, pt, pc
+                    
+            medidas relativas: em, ex, rem, Vw, %
+                    
+            a recomendação é utilizar px e em!
+                    
+            em site não recomenda-se utilizar pt(ponto)
+                    
+            16px (geralmente tamanho padrão em um site, quando não for especifícado) equivale a 1em
+                    
+            em é relativo ao tamanho natural */
+
+            font-weight: 500;
+
+            /* 
+            o font weight, recurso para deixar a fonte mais ''gordinha'' não funciona com todos tipos de fonte
+            */
+                
+            }
+
+        h1{
+            color:rgb(6, 50, 6);
+            text-align: center;
+            /* font-family: 'Courier New', Courier, monospace;
+            font-size:2em;
+            font-weight: 200;
+            font-style: italic; */
+
+            /* shorthand font (simplificação, várias coisas em uma única linha): */
+
+            font: italic 200 2em 'Courier New';
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        h2{
+            font-family: monospace;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Família e tamanho de fontes</h1>
+    <p>Aprendendo fontes em CSS.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum doloribus iste, numquam facere illo, quae provident cum sunt impedit ducimus ipsum dolore. Nulla repellendus quam totam debitis maiores ad unde!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, animi! Voluptate, quos. Illum vitae odit numquam iusto eveniet nihil enim voluptatem aut quas! Perferendis vero similique enim neque eum eligendi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quisquam doloribus numquam molestiae fuga rerum, rem tenetur voluptatibus debitis corrupti ratione autem sequi temporibus nulla accusantium at fugiat. Quod, <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis reprehenderit quos, obcaecati, neque quia, itaque autem maxime assumenda impedit ipsa maiores fuga ab nulla odit perferendis illum sed debitis ipsum!</p>
+
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia et autem reiciendis, necessitatibus illum facere magnam sit alias quam, nam dignissimos ipsum distinctio exercitationem id temporibus esse fuga tempore! Impedit.</p>
+    
+</body>
+</html>
