@@ -43,7 +43,7 @@ header{
     min-height: 150px;
     text-align: center;
     margin: auto;
-    padding-top: 40px ;
+    padding-top: 40px;
 }
 
 header > h1 {
@@ -182,7 +182,7 @@ aside > h3 {
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 50%;
-    position: relative
+    position: relative;
 }
 
 .video > iframe {
